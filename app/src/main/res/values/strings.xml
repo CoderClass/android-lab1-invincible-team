@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up for Facebook</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="new_feed">New feed</string>
+</resources>

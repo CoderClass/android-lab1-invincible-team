@@ -1,0 +1,22 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Set global for EditText text color -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+        <!-- Set global for EditText underline color -->
+        <item name="android:textColorSecondary">@color/gray</item>
+
+        <!-- Set global for EditText hint color -->
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+
+    <!-- Theme without actionbar -->
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

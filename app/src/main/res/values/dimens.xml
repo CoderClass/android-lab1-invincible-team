@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="space_small">8dp</dimen>
+    <dimen name="space_normal">16dp</dimen>
+    <dimen name="space_extra_large">24dp</dimen>
+    <dimen name="size_normal">16sp</dimen>
+    <dimen name="space_large">20dp</dimen>
+    <dimen name="size_small">14sp</dimen>
+</resources>
