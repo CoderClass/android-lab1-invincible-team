@@ -32,18 +32,18 @@ public class PostAdapter extends ArrayAdapter<Post> {
     @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        // Insert your code
+        // TODO: Insert your code
         // bindViewHolder(position, viewHolder)
         return convertView;
     }
 
     private void bindViewHolder(int position, ViewHolder viewHolder) {
         Post post = mPosts.get(position);
-        // Insert your code
+        // TODO: Insert your code
     }
 
     private void loadImage(ImageView imageView, String path) {
-        // Insert your code
+        // TODO: Insert your code
     }
 
     public class ViewHolder {
