@@ -44,10 +44,6 @@ public class PostAdapter extends ArrayAdapter<Post> {
 
     private void loadImage(ImageView imageView, String path) {
         // Insert your code
-//        Picasso.with(getContext())
-//                .load(path)
-//                .placeholder(R.drawable.placeholder)
-//                .into(imageView);
     }
 
     public class ViewHolder {
