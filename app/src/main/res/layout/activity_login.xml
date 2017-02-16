@@ -1,16 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/colorPrimary">
 
-    <ImageView
-        android:id="@+id/ivLogo"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/logo" />
+	<ImageView
+			android:id="@+id/ivLogo"
+			android:layout_width="200dp"
+			android:layout_height="100dp"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="50dp"
+			android:scaleType="centerCrop"
+			android:src="@drawable/logo"/>
+
+	<EditText
+			android:id="@+id/edtEmail"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/ivLogo"
+			android:layout_marginBottom="10dp"
+			android:layout_marginLeft="15dp"
+			android:layout_marginRight="15dp"
+			android:layout_marginTop="10dp"
+			android:hint="@string/edt_hint_msg"
+			android:inputType="textEmailAddress"
+			android:padding="@dimen/space_normal"
+			android:textSize="@dimen/size_normal">
+
+		<requestFocus
+	</EditText>
+
+	<EditText
+			android:id="@+id/edtPassword"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/edtEmail"
+			android:layout_marginBottom="10dp"
+			android:layout_marginLeft="15dp"
+			android:layout_marginRight="15dp"
+			android:layout_marginTop="10dp"
+			android:hint="@string/edt_pass_hint"
+			android:inputType="textPassword"
+			android:padding="@dimen/space_normal"
+			android:textSize="@dimen/size_normal"/>
 
 </RelativeLayout>
